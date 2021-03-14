@@ -38,7 +38,8 @@ void main() {
   print_statistics(test, SIZE);
 }
 
-void print_statistics(unsigned char array[], unsigned int length){
+void print_statistics(unsigned char array[], unsigned int length)
+{
 	printf("The original array:\n\n");
 	print_array(array, length);
 	sort_array(array, length);
